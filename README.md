@@ -1,1 +1,1 @@
-# TPG-MercadoPago
+# Taller para Graduados - Mercado Pago
