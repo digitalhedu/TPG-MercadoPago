@@ -1,0 +1,142 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    background: #808080;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+    padding: 1rem;
+}
+#products{
+    margin: .25rem;
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: .25rem;
+    background-color: snow;
+    border-radius: .25rem;
+    box-shadow: .5rem .5rem .25rem 0 rgba(36, 36, 36,.5);
+}
+
+#products li{
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: rgb(240, 240, 240);
+    padding: .25rem;
+}
+#products li picture{
+    flex-basis: 25%;
+    padding: .25rem;
+    box-shadow: 0 0 .25rem 0 rgba(36, 36, 36,.5);
+}
+#products li section{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .25rem;
+}
+#products li section h2{
+    text-transform: uppercase;
+    font-size: 1rem;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 .25rem;
+}
+#products li section h2 span{
+    padding: 1rem .25rem;
+    background: #161616;
+    text-align: center;
+    color: white;
+    width: 25%;
+}
+#products li section form{
+    flex-basis: 2rem;
+    display: flex;
+}
+#products li section form button{
+    flex-grow: 1;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: slateblue;
+    color: snow;
+}
+#cart{
+    margin: .25rem;
+    width: 25vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: .25rem;
+    background-color: snow;
+    height: 75vh;
+    max-height: 75vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    gap: 1rem;
+    box-shadow: -.5rem .5rem .25rem 0 rgba(36, 36, 36,.5);
+}
+
+#cart li{
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: rgb(240, 240, 240);
+    padding: .25rem;
+    height: 25vh;
+}
+
+
+#cart li h2{
+    text-transform: uppercase;
+    font-size: 1rem;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 .25rem;
+}
+#cart li h2 span{
+    padding: 1rem .25rem;
+    background: #161616;
+    text-align: center;
+    color: white;
+    width: 25%;
+}
+#cart li form{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cart li form input{
+    flex-grow: 1;
+    height: 2rem;
+    padding: .25rem;
+    text-align: center;
+}
+#cart li form button{
+    flex-basis:2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.update button{
+    background: gold;
+}
+.delete button{
+    background: crimson;
+    color: snow;
+}

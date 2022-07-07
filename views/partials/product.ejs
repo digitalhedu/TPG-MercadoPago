@@ -1,0 +1,14 @@
+<li>
+    <picture>
+        <img src="/<%= image %>" alt="">
+    </picture>
+    <section>
+        <h2><%= name %> <span class="price">$<%= price %></span></h2>
+        <form action="/cart/add" method="post">
+            <input type="hidden" name="id" value="<%= id %>" />
+            <button type="submit">
+                <i class="fa-solid fa-plus"></i>
+            </button>
+        </form>
+    </section>
+</li>

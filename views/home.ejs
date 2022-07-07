@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include ('./partials/head.ejs') %> 
+<body>
+    <ul id="products">
+        <% if (products.length > 0) { %>         
+            <% products.forEach(element => { %>
+                <%- include ('./partials/product.ejs',element) %> 
+            <% }) %>
+        <% } %>
+    </ul>
+
+    <!--
+    <ul>
+        // Items Cart
+    </ul>
+    -->
+</body>
+</html>

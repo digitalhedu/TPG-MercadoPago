@@ -1,0 +1,26 @@
+[
+    {   
+        "id": 1,
+        "name": "Cat Black",
+        "price": 25,
+        "image": "cat-1.png"
+    },
+    {
+        "id": 2,
+        "name": "Cat Yoga",
+        "price": 7,
+        "image": "cat-2.png"
+    },
+    {
+        "id": 3,
+        "name": "Cat Snow",
+        "price": 10,
+        "image": "cat-3.png"
+    },
+    {
+        "id": 4,
+        "name": "Cat Happiness",
+        "price": 25,
+        "image": "cat-4.png"
+    }
+]
