@@ -1,4 +1,4 @@
 module.exports =(req,res,next) => {
-    // Magic
+    // Step 1
     next();
 };
